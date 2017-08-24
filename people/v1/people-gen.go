@@ -1608,7 +1608,8 @@ type Person struct {
 	// Relations: The person's relations.
 	Relations []*Relation `json:"relations,omitempty"`
 
-	// RelationshipInterests: The person's read-only relationship interests.
+	// RelationshipInterests: The person's read-only relationship
+	// interests.g4
 	RelationshipInterests []*RelationshipInterest `json:"relationshipInterests,omitempty"`
 
 	// RelationshipStatuses: The person's read-only relationship statuses.
